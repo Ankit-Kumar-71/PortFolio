@@ -19,7 +19,7 @@ const Footer = () => {
             </div>
             <div className="border-top border-gray-700 pt-4 flex flex-col items-center">
               <p className="text-sm">
-                &copy; 2025 Your Company. All rights reserved.
+                &copy; 2025 PortFolio. All rights reserved.
               </p>
             </div>
           </div>

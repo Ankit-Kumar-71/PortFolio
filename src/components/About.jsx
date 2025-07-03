@@ -1,4 +1,3 @@
-
 const About = () => {
   return (
     <div
@@ -16,44 +15,36 @@ const About = () => {
         <div />
         <div className="my-5">
           <h1 className="text-green-600 font-semibold text-xl">
-            Education & Training
+            EDUCATION
           </h1>
           <div>
-            Bachlor of Computer Application from Maharishi Dayanand University
-            Haryana 2021-2024 .
+            Bachelor of Computer Application from Maharishi Dayanand University
+            Haryana 2021-2024.
           </div>
         </div>
 
         <div className="my-5">
           <h1 className="text-green-600 font-semibold text-xl">
-            Skills & Expertise
+            SKILLS
           </h1>
           <div>
             <p className="my-1">
               Programming Languages : HTML, CSS, JavaScript , Java .
             </p>
             <p className="my-1">
-              Frameworks/Libraries : React.js , Bootstrap , Tailwind CSS , Express.js , Spring(Springboot).
+              Frameworks/Libraries : React.js , Bootstrap , Tailwind CSS ,
+              Express.js , Spring(Springboot).
             </p>
             <p className="my-1">Databases : MySQL, MongoDB , PostgreSQL</p>
             <p className="my-1">
-              Tools & Technologies: Git , Maven , Postman , Docker , Spring Tool Shoot , Visual studio Code .
+              Tools & Technologies: Git , Maven , Postman , Docker , Spring Tool
+              Shoot , Visual studio Code .
             </p>
-            <p className="my-1">Other Skills : responsive design, debugging , OOPs concepts , Exception Handling</p>
+            <p className="my-1">
+              Other Skills : responsive design, debugging , OOPs concepts ,
+              Exception Handling
+            </p>
           </div>
-        </div>
-
-        <div className="my-5">
-          <h1 className="text-green-600 font-semibold text-xl">
-            Mission Statement
-          </h1>
-          <p>
-            My mission is to leverage my skills and creativity to deliver
-            innovative Software Developer solutions that exceed client
-            expectations and contribute positively to the digital landscape. I
-            am committed to continuous learning and growth, always seeking new
-            challenges and opportunities to expand my horizons.
-          </p>
         </div>
       </div>
     </div>
