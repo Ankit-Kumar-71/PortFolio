@@ -11,13 +11,13 @@ const Contact = () => {
   } = useForm();
 
   const onSubmit = async (data) => {
-    const { name, email, message } = data;
+    const userInfo = {
+      name: data.name,
+      email: data.email,
+      message: data.message,
+    };
     try {
-      await axios.post("https://getform.io/f/raeqjora", {
-        name,
-        email,
-        message,
-      });
+      await axios.post("https://getform.io/f/raeqjora", userInfo);
       toast.success("Your message has been sent");
       reset();
     } catch (error) {
