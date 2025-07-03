@@ -34,7 +34,7 @@ const Home = () => {
             </div>
             <br />
             <p className="text-sm md:text-md text-justify">
-              Highly motivated and detail-oriented Full Stack Developer with a strong foundation in Java , JavaScript and modern full stack Technologies.BCA graduate from Maharishi Dayanand University passionate about buliding scalable , efficient and user-friendly web application .Adept at working in collaborative,agile terms and committed to continuous learning and implemeting best coding practices across both frontend and beckend development. Seeking to leverage my skills and knowledge to contribute to innovative projects and drive positive impact in the software development industry. 
+              Highly motivated and detail-oriented Full Stack Developer with a strong foundation in Java,JavaScript and modern full stack Technologies.BCA graduate from Maharishi Dayanand University passionate about buliding scalable,efficient and user-friendly web application.Adept at working in collaborative,agile terms and committed to continuous learning and implemeting best coding practices across both frontend and beckend development.Seeking to leverage my skills and knowledge to contribute to innovative projects and drive positive impact in the software development industry. 
             </p>
             <br />
             {/* social media icons */}
