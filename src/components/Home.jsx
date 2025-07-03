@@ -34,14 +34,7 @@ const Home = () => {
             </div>
             <br />
             <p className="text-sm md:text-md text-justify">
-              Highly motivated and enthusiastic Full Stack Web Developer with a
-              solid foundation in both front-end and back-end technologies.
-              Eager to apply skills in HTML, CSS, JavaScript, React, Node.js,
-              and databases to build scalable web applications. Enthusiastic and
-              detail-oriented Computer Science graduate with a strong foundation
-              in Java and full-stack web development. Eager to apply my
-              knowledge of front-end and back-end technologies in a professional
-              environment to build scalable and user-friendly applications
+              Highly motivated and detail-oriented Full Stack Developer with a strong foundation in Java , JavaScript and modern full stack Technologies.BCA graduate from Maharishi Dayanand University passionate about buliding scalable , efficient and user-friendly web application .Adept at working in collaborative,agile terms and committed to continuous learning and implemeting best coding practices across both frontend and beckend development. Seeking to leverage my skills and knowledge to contribute to innovative projects and drive positive impact in the software development industry. 
             </p>
             <br />
             {/* social media icons */}

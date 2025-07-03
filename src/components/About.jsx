@@ -8,10 +8,10 @@ const About = () => {
       <div className="my-5">
         <h1 className="text-3xl font-bold mb-5">About</h1>
         <p>
-          Hello, I am Ankit Kumar, a passionate Full Stack developer with a seen
-          eye for Java Full Stack and MERN Stack. With a background in IT, I
-          strive to create impactful and visually stunning Software solutions
-          that leave a lasting impression.
+          Hello, I am Ankit Kumar, a passionate Full Stack developer with a keen
+          eye for Full Stack Development. With a background in IT, I strive to
+          create impactful and visually stunning Software solutions that leave a
+          lasting impression.
         </p>
         <div />
         <div className="my-5">
@@ -30,16 +30,14 @@ const About = () => {
           </h1>
           <div>
             <p className="my-1">
-              Programming Languages : HTML, CSS, JavaScript , Java ,
-              SQL .
+              Programming Languages : HTML, CSS, JavaScript , Java .
             </p>
             <p className="my-1">
-              Frameworks/Libraries : React.js , Bootstrap , Tailwind CSS , Express.js , Spring(Springboot) , Hibernate .
+              Frameworks/Libraries : React.js , Bootstrap , Tailwind CSS , Express.js , Spring(Springboot).
             </p>
-            <p className="my-1">Database : MySQL, MongoDB , PostgreSQL</p>
+            <p className="my-1">Databases : MySQL, MongoDB , PostgreSQL</p>
             <p className="my-1">
-              Tools : Git , Maven , Postman , Docker , Node.js , Spring Tool Shoot , Visual
-              studio Code .
+              Tools & Technologies: Git , Maven , Postman , Docker , Spring Tool Shoot , Visual studio Code .
             </p>
             <p className="my-1">Other Skills : responsive design, debugging , OOPs concepts , Exception Handling</p>
           </div>
