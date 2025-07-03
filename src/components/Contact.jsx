@@ -10,14 +10,15 @@ const Contact = () => {
     formState: { errors },
   } = useForm();
 
-  const onSubmit = async (data) => {
+  const onSubmit = (data) => {
     const userInfo = {
       name: data.name,
       email: data.email,
       message: data.message,
     };
     try {
-      await axios.post("https://getform.io/f/bxoynmma", userInfo);
+      // await axios.post("https://getform.io/f/bxoynmma", userInfo);
+      alert(JSON.stringify(userInfo));
       toast.success("Your message has been sent");
       reset();
     } catch (error) {
