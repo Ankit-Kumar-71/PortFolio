@@ -30,12 +30,21 @@ const Home = () => {
                 backSpeed={50}
                 loop
               />
-              </div>
-              <br />
-              <p className="text-sm md:text-md text-justify">
-                Highly motivated and detail-oriented Full Stack Developer with a strong foundation in Java, JavaScript, and modern full stack technologies. BCA graduate from Maharishi Dayanand University, passionate about building scalable, efficient, and user-friendly web applications. Adept at working in collaborative, agile teams and committed to continuous learning and implementing best coding practices across both frontend and backend development. Seeking to leverage my skills and knowledge to contribute to innovative projects and drive positive impact in the software development industry.
-              </p>
-              <br />
+            </div>
+            <br />
+            <p className="text-sm md:text-md text-justify">
+              Highly motivated and detail-oriented Full Stack Developer with a
+              strong foundation in Java, JavaScript, and modern full stack
+              technologies. BCA graduate from Maharishi Dayanand University,
+              passionate about building scalable, efficient, and user-friendly
+              web applications. Adept at working in collaborative, agile teams
+              and committed to continuous learning and implementing best coding
+              practices across both frontend and backend development. Seeking to
+              leverage my skills and knowledge to contribute to innovative
+              projects and drive positive impact in the software development
+              industry.
+            </p>
+            <br />
             <div className="flex flex-col items-center md:flex-row justify-center space-y-6 md:space-y-0">
               <div className="space-y-2">
                 <h1 className="font-bold text-center ">Available on</h1>
@@ -62,16 +71,6 @@ const Home = () => {
                   </li>
                 </ul>
               </div>
-              {/* <div className=" space-y-2">
-                <h1 className="font-bold text-center">Currently working on</h1>
-                <div className="flex space-x-5">
-                   <FaReact className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
-                  <SiExpress className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
-                  <SiSpringboot className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
-                  <SiMongodb className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
-                  <SiMysql className="text-2xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px] cursor-pointer" />
-                </div>
-              </div> */}
             </div>
           </div>
           <div className="md:w-1/2 md:ml-48 md:mt-20 mt-8 order-1">
