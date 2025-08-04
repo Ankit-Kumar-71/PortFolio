@@ -17,7 +17,7 @@ const About = () => {
           <h1 className="text-green-600 font-semibold text-xl">EDUCATION</h1>
           <div>
             Bachelor of Computer Application from Maharshi Dayanand University
-            Rohtak Aug 2021- May 2024 with CGPA:7.0
+            Rohtak Aug 2021 - May 2024 with CGPA:7.0
           </div>
         </div>
 
