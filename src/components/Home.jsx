@@ -45,7 +45,7 @@ const Home = () => {
                 <h1 className="font-bold text-center ">Available on</h1>
                 <ul className="flex space-x-5">
                   <li>
-                    <a href="https://twitter.com/Ankit-kumar-71" target="_blank">
+                    <a href="https://x.com/Ankit_Kumar_71" target="_blank">
                       <FaSquareXTwitter className="text-2xl cursor-pointer" />
                     </a>
                   </li>

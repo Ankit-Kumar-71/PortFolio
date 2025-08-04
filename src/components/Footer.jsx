@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="flex flex-col items-center justify-center">
             {/* Social Icons */}
             <div className="flex space-x-6 mb-6">
-              <a href="https://twitter.com/Ankit-kumar-71" target="_blank" className="hover:text-blue-500 transition">
+              <a href="https://x.com/Ankit_Kumar_71" target="_blank" className="hover:text-blue-500 transition">
                 <FaSquareXTwitter size={24} />
               </a>
               <a href="https://www.linkedin.com/in/ankitkumar07" target="_blank" className="hover:text-blue-400 transition">
