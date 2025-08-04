@@ -1,16 +1,11 @@
 import pic from "../../public/Profile.jpg";
-
-import { FaSquareFacebook } from "react-icons/fa6";
-import { FaLinkedin } from "react-icons/fa";
-import { IoLogoYoutube } from "react-icons/io";
-import { FaTelegram } from "react-icons/fa6";
 import { ReactTyped } from "react-typed";
-// import { SiMongodb } from "react-icons/si";
-// import { SiExpress } from "react-icons/si";
-// import { FaReact } from "react-icons/fa";
-// import { SiMysql } from "react-icons/si";
+import {
+  FaSquareXTwitter,
+  FaLinkedin,
+  FaGithub,
+} from "react-icons/fa6";
 
-// import { SiSpringboot } from "react-icons/si";
 
 const Home = () => {
   return (
@@ -50,23 +45,18 @@ const Home = () => {
                 <h1 className="font-bold text-center ">Available on</h1>
                 <ul className="flex space-x-5">
                   <li>
-                    <a href="https://www.facebook.com/" target="_blank">
-                      <FaSquareFacebook className="text-2xl cursor-pointer" />
+                    <a href="https://twitter.com/Ankit-kumar-71" target="_blank">
+                      <FaSquareXTwitter className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.linkedin.com/" target="_blank">
+                    <a href="https://www.linkedin.com/in/ankitkumar07" target="_blank">
                       <FaLinkedin className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                   <li>
-                    <a href="https://www.youtube.com/" target="_blank">
-                      <IoLogoYoutube className="text-2xl cursor-pointer" />
-                    </a>
-                  </li>
-                  <li>
-                    <a href="https://t.me/" target="_blank">
-                      <FaTelegram className="text-2xl cursor-pointer" />
+                    <a href="https://github.com/Ankit-Kumar-71" target="_blank">
+                      <FaGithub className="text-2xl cursor-pointer"/>
                     </a>
                   </li>
                 </ul>

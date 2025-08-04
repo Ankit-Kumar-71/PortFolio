@@ -23,10 +23,6 @@ const Navbar = () => {
       id: 4,
       text: "Portfolio",
     },
-    {
-      id: 5,
-      text: "Contact",
-    },
   ];
   return (
     <>

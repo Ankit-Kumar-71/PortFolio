@@ -1,8 +1,7 @@
 import {
-  FaFacebook,
-  FaTwitter,
-  FaInstagram,
-  FaLinkedinIn,
+  FaSquareXTwitter,
+  FaLinkedin,
+  FaGithub,
 } from "react-icons/fa6";
 
 const Footer = () => {
@@ -13,17 +12,14 @@ const Footer = () => {
           <div className="flex flex-col items-center justify-center">
             {/* Social Icons */}
             <div className="flex space-x-6 mb-6">
-              <a href="#" className="hover:text-blue-500 transition">
-                <FaFacebook size={24} />
+              <a href="https://twitter.com/Ankit-kumar-71" target="_blank" className="hover:text-blue-500 transition">
+                <FaSquareXTwitter size={24} />
               </a>
-              <a href="#" className="hover:text-blue-400 transition">
-                <FaTwitter size={24} />
+              <a href="https://www.linkedin.com/in/ankitkumar07" target="_blank" className="hover:text-blue-400 transition">
+                <FaLinkedin size={24} />
               </a>
-              <a href="#" className="hover:text-pink-500 transition">
-                <FaInstagram size={24} />
-              </a>
-              <a href="#" className="hover:text-blue-300 transition">
-                <FaLinkedinIn size={24} />
+              <a href="https://github.com/Ankit-Kumar-71" target="_blank" className="hover:text-pink-500 transition">
+                <FaGithub size={24} />
               </a>
             </div>
 

@@ -16,8 +16,8 @@ const PortFolio = () => {
     {
       id: 2,
       logo: express,
-      name: "Express",
-      text:"Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications."
+      name: "ExpressJS",
+      text:"Express.js is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications."
     },
     {
       id: 3,
@@ -51,7 +51,7 @@ const PortFolio = () => {
     >
       <div>
         <h1 className="text-3xl font-bold my-5">PortFolio</h1>
-        <h1 className="font-bold text-center">Currently working on</h1>
+        <h1 className="font-bold text-center">Currently working on this technologies</h1>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-20 my-5">
           {cardItem.map(({ id, logo, name, text }) => (
             <div

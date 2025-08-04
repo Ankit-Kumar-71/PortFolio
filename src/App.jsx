@@ -1,11 +1,9 @@
-
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
 import PortFolio from "./components/PortFolio";
 import Experience from "./components/Experience";
 import Footer from "./components/Footer";
-import Contact from "./components/Contact";
 import { Toaster } from "react-hot-toast";
 
 function App() {
@@ -17,7 +15,6 @@ function App() {
         <About />
         <Experience />
         <PortFolio />
-        <Contact />
         <Footer />
       </div>
       <Toaster />
