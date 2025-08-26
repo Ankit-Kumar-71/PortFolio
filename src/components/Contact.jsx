@@ -31,6 +31,7 @@ const Contact = () => {
         body: JSON.stringify(formData),
       });
 
+
       if (res.ok) {
         setResponseMessage(
           "Thank you for reaching out! I will get back to you soon."
