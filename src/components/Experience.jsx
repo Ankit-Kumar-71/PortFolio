@@ -1,62 +1,67 @@
-import html from "../../public/html.png";
-import css from "../../public/css.jpg";
-import java from "../../public/java.png";
-import javascript from "../../public/javascript.png";
-import SQL from "../../public/SQL.png";
 
 const Experience = () => {
-  const cardItem = [
+  const experiences = [
     {
-      id: 1,
-      logo: html,
-      name: "HTML",
+      title: "Frontend Developer training",
+      company: "DSDC institute",
+      duration: "July 2024 - Dec 2024",
+      location: "Badarpur New Delhi",
+      responsibilities: [
+        "Developed responsive and user-friendly web applications using React.js and Tailwind CSS.",
+        "Collaborated with the design team to implement UI components based on Figma designs.",
+        "Optimized web applications for maximum speed and scalability.",
+      ],
     },
     {
-      id: 2,
-      logo: css,
-      name: "CSS",
+      title: "Beckend Developer training",
+      company: "DSDC institute",
+      duration: "July 2024 - Dec 2024",
+      location: "Badarpur New Delhi",
+      responsibilities: [
+        "Contributed to building website logic using Java and JavaScript to support dynamic functionality.",
+        "Assisted in identifying and resolving bugs, ensuring smooth and error-free application performance.",
+        "Collaborated with the development team to streamline workflows and deliver user-friendly solutions."
+      ],
     },
     {
-      id: 3,
-      logo: javascript,
-      name: "JavaScript",
-    },
-    {
-      id: 4,
-      logo: java,
-      name: "Java",
-    },
-    {
-      id: 5,
-      logo: SQL,
-      name: "SQL",
+      title: "Freelancing ",
+      company: "Self-employed",
+      duration: "Jan 2025 - Present",
+      location: "Remote",
+      responsibilities: [
+        "Developed custom websites for small businesses and entrepreneurs.",
+        "Worked with clients to understand requirements and deliver tailored web solutions.",
+        "Utilized HTML, CSS, and JavaScript and Java for project development.",
+      ],
     },
   ];
+
   return (
-    <div
-      name="Experience"
-      className="max-w-screen-2xl container mx-auto px-4 md:px-20 my-16"
-    >
-      <div>
-        <h1 className="text-3xl font-bold mb-5">Experience</h1>
-        <p className="  ">I have knowledge in below technologies.</p>
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-7 my-3">
-          {cardItem.map(({ id, logo, name }) => (
-            <div
-              className=" flex flex-col items-center justify-center border-[2px] rounded-full md:w-[200px] md:h-[200px] shadow-md p-1 cursor-pointer hover:scale-110 duration-300"
-              key={id}
-            >
-              <img
-                src={logo}
-                className="w-[100px] h-[100px] rounded-lg"
-                alt=""
-              />
+    <div className="p-8 max-w-6xl mx-auto">
+      <h2 className="text-4xl font-bold text-center mb-8">Experience</h2>
+
+      <div className="space-y-8">
+        {experiences.map((exp, index) => (
+          <div
+            key={index}
+            className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition duration-300"
+          >
+            <div className="flex justify-between items-center mb-4">
               <div>
-                <div className="">{name}</div>
+                <h3 className="text-xl font-semibold text-gray-800">{exp.title}</h3>
+                <p className="text-gray-600">{exp.company}</p>
+                <p className="text-sm text-gray-500">{exp.location}</p>
               </div>
+              <p className="text-gray-400">{exp.duration}</p>
             </div>
-          ))}
-        </div>
+
+            <ul className="list-disc pl-5 space-y-2">
+              {exp.responsibilities.map((task, idx) => (
+                <li key={idx} className="text-gray-600">{task}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
       </div>
     </div>
   );
