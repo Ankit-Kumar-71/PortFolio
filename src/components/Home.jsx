@@ -37,7 +37,7 @@ const Home = () => {
           <img
             src={pic}
             alt="Developer Picture"
-            className="w-[450px] h-[450px] md:w-[450px] md:h-[450px] rounded-xl mx-auto shadow-2xl transition-transform transform hover:scale-105"
+            className="w-[350px] h-[350px] md:w-[450px] md:h-[450px] rounded-xl mx-auto shadow-2xl transition-transform transform hover:scale-105"
           />
         </div>
       </div>
