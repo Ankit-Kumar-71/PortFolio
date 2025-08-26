@@ -1,4 +1,5 @@
-import pic from "../../public/selfImage2.jpg";
+import pic from "../../public/selfImage1.jpg";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -22,12 +23,12 @@ const Home = () => {
           </p>
           {/* Action Button */}
           <div className="mt-6">
-            <a
-              href="/contact"
+            <Link
+              to="/contact"
               className="inline-block px-8 py-3 bg-green-600 text-white rounded-lg shadow-lg hover:bg-green-700 transition duration-300"
             >
               Contact Me
-            </a>
+            </Link>
           </div>
         </div>
 
