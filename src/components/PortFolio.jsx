@@ -1,5 +1,3 @@
-
-// Sample project data
 const projects = [
   {
     title: "Project 1",
@@ -19,7 +17,6 @@ const projects = [
     image: "https://via.placeholder.com/400x250",
     link: "https://github.com/your-repo/project3",
   },
-  // Add more projects as needed
 ];
 
 const Portfolio = () => {
@@ -46,7 +43,9 @@ const Portfolio = () => {
 
             {/* Project Info */}
             <div className="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center p-4 opacity-0 hover:opacity-100 transition-opacity duration-300">
-              <h3 className="text-white text-xl font-semibold mb-2">{project.title}</h3>
+              <h3 className="text-white text-xl font-semibold mb-2">
+                {project.title}
+              </h3>
               <p className="text-white text-sm">{project.description}</p>
               <a
                 href={project.link}
