@@ -9,7 +9,7 @@ const Home = () => {
         {/* Text Section */}
         <div className="md:w-1/2 space-y-4 text-center md:text-left order-2 md:order-1">
           <h1 className="text-4xl md:text-5xl font-extrabold text-gray-800 leading-tight">
-            Hi, I am a Full Stack Developer
+            Hi, I am a Java Full Stack Developer
           </h1>
           <p className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-xl mx-auto md:mx-0">
             Highly motivated and detail-oriented Full Stack Developer with a
