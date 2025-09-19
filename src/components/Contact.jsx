@@ -125,17 +125,17 @@ const Contact = () => {
 
       <div className="mt-10 text-center">
         <p className="text-lg">Or reach me directly:</p>
-        <div className="flex justify-center space-x-8 mt-4">
+        <div className="flex justify-center space-x-4 mt-4">
           <a
             href="tel:+918882291407"
-            className="inline-flex items-center gap-2 text-gray-700 hover:text-blue-800 font-medium transition-colors duration-200"
+            className="inline-flex items-center gap-1  text-gray-700 hover:text-blue-800 font-medium transition-colors duration-200"
           >
             <Phone className="w-5 h-5" />
             Call
           </a>
           <a
             href="mailto:ankitkumar20224@gmail.com"
-            className="inline-flex items-center gap-2 text-gray-700 hover:text-blue-800 font-medium transition-colors duration-200"
+            className="inline-flex items-center gap-1 text-gray-700 hover:text-blue-800 font-medium transition-colors duration-200"
           >
             <Mail className="w-5 h-5" />
             Email
@@ -144,7 +144,7 @@ const Contact = () => {
             href="https://www.linkedin.com/in/ankitkumar07"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 text-gray-700 hover:text-blue-800 font-medium transition-colors duration-200"
+            className="inline-flex items-center gap-1 text-gray-700 hover:text-blue-800 font-medium transition-colors duration-200"
           >
             <FaLinkedin className="w-5 h-5" />
             LinkedIn
@@ -154,7 +154,7 @@ const Contact = () => {
             href="https://github.com/Ankit-Kumar-71"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 text-gray-700 hover:text-blue-800 font-medium transition-colors duration-200"
+            className="inline-flex items-center gap-1 text-gray-700 hover:text-blue-800 font-medium transition-colors duration-200"
           >
             <FaGithub className="w-5 h-5" />
             GitHub
