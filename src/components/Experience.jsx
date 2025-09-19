@@ -26,7 +26,7 @@ const Experience = () => {
       title: "Freelancing ",
       company: "Self-employed",
       duration: "Jan 2025 - Present",
-      location: "Remote",
+      location: "Work From Home",
       responsibilities: [
         "Developed custom websites for small businesses and entrepreneurs.",
         "Worked with clients to understand requirements and deliver tailored web solutions.",
@@ -36,7 +36,7 @@ const Experience = () => {
   ];
 
   return (
-    <div className="p-8 max-w-6xl mx-auto">
+    <div className="p-4 max-w-6xl mx-auto">
       <h2 className="text-4xl font-bold text-center mb-8">Experience</h2>
 
       <div className="space-y-8">

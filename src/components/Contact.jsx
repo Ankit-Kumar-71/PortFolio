@@ -47,8 +47,8 @@ const Contact = () => {
   };
 
   return (
-    <div className="p-8 max-w-4xl mx-auto">
-      <h2 className="text-4xl font-bold text-center mb-6">Contact Me</h2>
+    <div className="p-4 max-w-4xl mx-auto">
+      <h2 className="text-4xl font-bold text-center mb-4">Contact Me</h2>
 
       <form onSubmit={handleSubmit} className="space-y-6">
         <div>
@@ -124,7 +124,7 @@ const Contact = () => {
       </form>
 
       <div className="mt-10 text-center">
-        <p className="text-lg">Or reach me directly:</p>
+        <p className="text-lg">Or reach me directly</p>
         <div className="flex justify-center space-x-4 mt-4">
           <a
             href="tel:+918882291407"

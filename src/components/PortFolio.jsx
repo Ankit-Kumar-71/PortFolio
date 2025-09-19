@@ -21,7 +21,7 @@ const projects = [
 
 const Portfolio = () => {
   return (
-    <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 py-10">
+    <div className="max-w-screen-2xl container mx-auto px-4 md:px-20 py-4">
       {/* Section Title */}
       <h1 className="text-4xl font-extrabold text-center text-gray-800 mb-10">
         My Portfolio
