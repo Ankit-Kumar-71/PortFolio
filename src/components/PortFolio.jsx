@@ -1,21 +1,15 @@
 const projects = [
   {
-    title: "Project 1",
-    description: "A web application built using React.js and Tailwind CSS.",
-    image: "https://via.placeholder.com/400x250",
-    link: "https://github.com/your-repo/project1",
+    title: "Summer-Collection",
+    description: "A website built using React.js and Tailwind CSS.",
+    image: "./../public/summer.png",
+    link: "https://github.com/Ankit-Kumar-71/summer-collection",
   },
   {
-    title: "Project 2",
-    description: "A backend RESTful API built using Express.js and MongoDB.",
-    image: "https://via.placeholder.com/400x250",
-    link: "https://github.com/your-repo/project2",
-  },
-  {
-    title: "Project 3",
+    title: "PortFolio",
     description: "A portfolio website built using React and Tailwind CSS.",
-    image: "https://via.placeholder.com/400x250",
-    link: "https://github.com/your-repo/project3",
+    image: "./../public/portfolio.png",
+    link: "https://github.com/Ankit-Kumar-71/portfolio",
   },
 ];
 
