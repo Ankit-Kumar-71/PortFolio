@@ -12,11 +12,11 @@ const Home = () => {
             Hi, I am a Developer
           </h1> */}
           <p className="text-lg md:text-2xl text-gray-600 leading-relaxed max-w-xl mx-auto md:mx-0">
-            Highly motivated and detail-oriented Java Full Stack Developer with a
-            strong foundation in Java, JavaScript, and modern full-stack
-            technologies. I am passionate about building scalable, efficient,
+            Highly motivated and detail-oriented Full Stack Developer with a
+            strong foundation in Java, JavaScript and modern full-stack
+            technologies. I am passionate about building scalable, efficient
             and user-friendly web applications. Adept at working in
-            collaborative, agile teams, and committed to continuous learning and
+            collaborative, agile teams and committed to continuous learning and
             best coding practices across both frontend and backend development.
             Seeking to leverage my skills to contribute to innovative projects
             and create positive impact.

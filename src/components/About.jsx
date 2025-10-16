@@ -27,10 +27,10 @@ const About = () => {
             About Me
           </h1>
           <p className="text-lg text-gray-600 leading-relaxed">
-            Hello! I’m a passionate Java Full Stack Developer with hands-on
+            Hello! I’m a passionate Full Stack Developer with hands-on
             experience in both Frontend and Backend Technologies. I enjoy
             building web applications and solving real-world problems using my
-            knowledge of Java and JavaScript. I’m always seen to learn new
+            knowledge of Java and JavaScript. I’m always eager to learn new
             technologies and continuously grow by working on challenging
             projects.
           </p>

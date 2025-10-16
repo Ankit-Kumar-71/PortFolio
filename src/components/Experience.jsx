@@ -1,25 +1,16 @@
 const Experience = () => {
   const experiences = [
     {
-      title: "Frontend Developer training",
-      company: "DSDC institute",
+      title: "Full Stack Developer Training",
+      company: "DSDC Institute",
       duration: "July 2024 - Dec 2024",
-      location: "Badarpur New Delhi",
+      location: "Badarpur, New Delhi",
       responsibilities: [
-        "Developed responsive and user-friendly web applications using React.js and Tailwind CSS.",
-        "Collaborated with the design team to implement UI components based on Figma designs.",
-        "Optimized web applications for maximum speed and scalability.",
-      ],
-    },
-    {
-      title: "Beckend Developer training",
-      company: "DSDC institute",
-      duration: "July 2024 - Dec 2024",
-      location: "Badarpur New Delhi",
-      responsibilities: [
-        "Contributed to building website logic using Java and JavaScript to support dynamic functionality.",
-        "Assisted in identifying and resolving bugs, ensuring smooth and error-free application performance.",
-        "Collaborated with the development team to streamline workflows and deliver user-friendly solutions."
+        "Developed responsive and dynamic web applications using React.js, Tailwind CSS and Springboot.",
+        "Implemented both frontend UI components (based on Figma designs) and backend logic to ensure seamless integration.",
+        "Collaborated with design and development teams to deliver optimized, scalable and user-friendly solutions.",
+        "Debugged and resolved issues across the full stack to ensure high performance and smooth functionality.",
+        "Enhanced overall application speed, scalability and maintainability through code optimization and best practices.",
       ],
     },
     {
@@ -47,7 +38,9 @@ const Experience = () => {
           >
             <div className="flex justify-between items-center mb-4">
               <div>
-                <h3 className="text-xl font-semibold text-gray-800">{exp.title}</h3>
+                <h3 className="text-xl font-semibold text-gray-800">
+                  {exp.title}
+                </h3>
                 <p className="text-gray-600">{exp.company}</p>
                 <p className="text-sm text-gray-500">{exp.location}</p>
               </div>
@@ -56,7 +49,9 @@ const Experience = () => {
 
             <ul className="list-disc pl-5 space-y-2">
               {exp.responsibilities.map((task, idx) => (
-                <li key={idx} className="text-gray-600">{task}</li>
+                <li key={idx} className="text-gray-600">
+                  {task}
+                </li>
               ))}
             </ul>
           </div>

@@ -23,7 +23,7 @@ const Navbar = () => {
           <img src={pic} className="h-12 w-12 rounded-full" alt="logo" />
           <h1 className="font-semibold text-xl cursor-pointer">
             Ankit Kumar
-            <p className="text-sm">Java Full Stack Developer</p>
+            <p className="text-sm">Full Stack Developer</p>
           </h1>
         </div>
 
