@@ -3,17 +3,17 @@ import portfolioImage from "../../public/portfolio.png";
 
 const projects = [
   {
-    title: "Summer-Collection",
-    description: "A website built using React.js and Tailwind CSS.",
-    image: summerImage,
-    link: "https://github.com/Ankit-Kumar-71/summer-collection",
-  },
-  {
     title: "PortFolio",
     description: "A portfolio website built using React and Tailwind CSS.",
     image: portfolioImage,
     link: "https://github.com/Ankit-Kumar-71/portfolio",
   },
+  {
+    title: "Summer-Collection",
+    description: "A website built using React.js and Tailwind CSS.",
+    image: summerImage,
+    link: "https://github.com/Ankit-Kumar-71/summer-collection",
+  }
 ];
 
 const Portfolio = () => {
