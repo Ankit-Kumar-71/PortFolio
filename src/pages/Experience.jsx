@@ -1,7 +1,7 @@
 const Experience = () => {
   const experiences = [
     {
-      title: "Full Stack Developer Training",
+      title: "Java Full Stack Developer Training",
       company: "DSDC Institute",
       duration: "July 2024 - Dec 2024",
       location: "Badarpur, New Delhi",

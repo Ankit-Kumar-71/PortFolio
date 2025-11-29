@@ -15,6 +15,7 @@ import {
   SiTailwindcss,
   SiBootstrap,
   SiSpring,
+  SiOpenjdk,
 } from "react-icons/si";
 
 const About = () => {
@@ -26,8 +27,8 @@ const About = () => {
           <h1 className="text-4xl font-semibold text-gray-800 mb-5">
             About Me
           </h1>
-          <p className="text-lg text-gray-600 leading-relaxed">
-            Hello! I’m a passionate Full Stack Developer with hands-on
+          <p className="text-lg text-gray-800 leading-relaxed">
+            Hello! I’m a passionate Java Full Stack Developer with hands-on
             experience in both Frontend and Backend Technologies. I enjoy
             building web applications and solving real-world problems using my
             knowledge of Java and JavaScript. I’m always eager to learn new
@@ -89,7 +90,10 @@ const About = () => {
                   <FaJava className="text-red-600 mr-2" /> Java
                 </li>
                 <li className="flex items-center">
-                  <SiSpring className="text-green-600 mr-2" /> Spring
+                  <SiSpring className="text-green-600 mr-2" /> Spring Framework
+                </li>
+                <li className="flex items-center">
+                  <SiOpenjdk className="text-green-600 mr-2" /> Hibernate Framework
                 </li>
                 <li className="flex items-center">
                   <SiSpringboot className="text-green-600 mr-2" /> Spring Boot
@@ -116,7 +120,7 @@ const About = () => {
                   <FaGithub className="text-black mr-2" /> Git & GitHub
                 </li>
                 <li className="flex items-center">
-                  <FaDocker className="text-blue-500 mr-2" /> Docker (Basics)
+                  <FaDocker className="text-blue-500 mr-2" /> Docker 
                 </li>
               </ul>
             </div>

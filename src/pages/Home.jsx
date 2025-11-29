@@ -8,11 +8,8 @@ const Home = () => {
       <div className="flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0">
         {/* Text Section */}
         <div className="md:w-1/2 space-y-4 text-center md:text-left order-2 md:order-1">
-          {/* <h1 className="text-4xl md:text-5xl font-extrabold text-gray-800 leading-tight">
-            Hi, I am a Developer
-          </h1> */}
-          <p className="text-lg md:text-2xl text-gray-600 leading-relaxed max-w-xl mx-auto md:mx-0">
-            Highly motivated and detail-oriented Full Stack Developer with a
+          <p className="text-lg md:text-xl text-gray-800 leading-relaxed max-w-xl mx-auto md:mx-0">
+            Highly motivated and detail-oriented Java Full Stack Developer with a
             strong foundation in Java, JavaScript and modern full-stack
             technologies. I am passionate about building scalable, efficient
             and user-friendly web applications. Adept at working in
