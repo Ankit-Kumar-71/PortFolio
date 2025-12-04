@@ -1,5 +1,5 @@
-import summerImage from "../../public/Summer-Collection.png";
-import portfolioImage from "../../public/Portfolio.png";
+import SummerCollectionImage from "../../public/SummerCollectionImage.png";
+import portfolioImage from "../../public/PortfolioImage.png";
 
 const projects = [
   {
@@ -9,9 +9,9 @@ const projects = [
     link: "https://github.com/Ankit-Kumar-71/portfolio",
   },
   {
-    title: "Summer-Collection",
+    title: "SummerCollection",
     description: "An E-commerce website built using React.js and Tailwind CSS.",
-    image: summerImage,
+    image: SummerCollectionImage,
     link: "https://github.com/Ankit-Kumar-71/summer-collection",
   }
 ];
