@@ -1,4 +1,4 @@
-import pic from "../../public/Profile.jpg";
+import pic from "../../public/ankit.jpg";
 import { Link } from "react-router-dom";
 
 const Home = () => {

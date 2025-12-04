@@ -1,4 +1,4 @@
-import pic from "../../public/Profile.jpg";
+import pic from "../../public/ankit.jpg";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X } from "lucide-react";
