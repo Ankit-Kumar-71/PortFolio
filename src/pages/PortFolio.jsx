@@ -1,16 +1,16 @@
-import summerImage from "../../public/summer.png";
-import portfolioImage from "../../public/portfolio.png";
+import summerImage from "../../public/Summer-Collection.png";
+import portfolioImage from "../../public/Portfolio.png";
 
 const projects = [
   {
-    title: "PortFolio",
-    description: "A portfolio website built using React and Tailwind CSS.",
+    title: "Portfolio",
+    description: "A portfolio website built using React.js and Tailwind CSS.",
     image: portfolioImage,
     link: "https://github.com/Ankit-Kumar-71/portfolio",
   },
   {
     title: "Summer-Collection",
-    description: "A website built using React.js and Tailwind CSS.",
+    description: "An E-commerce website built using React.js and Tailwind CSS.",
     image: summerImage,
     link: "https://github.com/Ankit-Kumar-71/summer-collection",
   }
