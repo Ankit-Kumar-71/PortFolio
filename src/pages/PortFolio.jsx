@@ -1,5 +1,11 @@
 import SummerCollectionImage from "../../public/SummerCollectionImage.png";
 import portfolioImage from "../../public/PortfolioImage.png";
+import EmailAppImage from "../../public/EmailAppImage.png";
+import EmployeeManagementImage from "../../public/EmployeeManagementImage.png";
+import HotelBookingImage from "../../public/HotelBookingImage.png";
+import AppointmentBookingImage from "../../public/AppointmentBookingImage.png";
+import ChatAppImage from "../../public/ChatAppImage.png";
+import RestaurantAppImage from "../../public/RestaurantAppImage.png";
 
 const projects = [
   {
@@ -17,44 +23,44 @@ const projects = [
   {
     title :"Email Sender Application",
     description:
-      "An email sender application using Java and JavaMail API.",
-    image: "https://via.placeholder.com/400x300.png?text=Email+Sender+App",
+      "An email sender application using React and Springboot.",
+    image: EmailAppImage,
     link: "https://github.com/Ankit-Kumar-71/Email-Sender-Application",
   },
   {
     title: "Employee Management Application",
     description:
-      "A full-stack employee management application using Java Full Stack.",
+      "A full-stack employee management application using React and Springboot.",
     image:
-      "https://via.placeholder.com/400x300.png?text=Employee+Management+App",
+      EmployeeManagementImage,
     link: "https://github.com/Ankit-Kumar-71/Employee-Management-Application",
   },
   {
     title : "Hotel booking Application",
     description:
-      "A hotel booking application using Java Full Stack.",
-    image: "https://via.placeholder.com/400x300.png?text=Hotel+Booking+App",
+      "A hotel booking application using React and Springboot.",
+    image: HotelBookingImage,
     link: "https://github.com/Ankit-Kumar-71/Hotel-booking-Application",    
   },
   {
     title : "Appointment Booking Application",
     description:
-      "An appointment booking application using Java Full Stack.",
-    image: "https://via.placeholder.com/400x300.png?text=Appointment+Booking+App",
+      "An appointment booking application using React and Springboot.",
+    image: AppointmentBookingImage,
     link: "https://github.com/Ankit-Kumar-71/Appointment-Booking-Appication",
   },
   {
     title: "Chat Application",
     description:
-      "A real-time chat application using Node.js, Express, and Socket.io.",
-    image: "https://via.placeholder.com/400x300.png?text=Chat+Application",
+      "A real-time chat application using React and Springboot.",
+    image: ChatAppImage,
     link: "https://github.com/Ankit-Kumar-71/Chat-Application",
   },
   {
     title : "Restaurant Application",
     description:
-      "A restaurant management application using Java Full Stack.",
-    image: "https://via.placeholder.com/400x300.png?text=Restaurant+App",
+      "A restaurant management application using React and Springboot.",
+    image: RestaurantAppImage,
     link: "https://github.com/Ankit-Kumar-71/Restaurant-Application",
   },
 ];
