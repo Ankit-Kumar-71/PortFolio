@@ -13,7 +13,50 @@ const projects = [
     description: "An E-commerce website built using React.js and Tailwind CSS.",
     image: SummerCollectionImage,
     link: "https://github.com/Ankit-Kumar-71/summer-collection",
-  }
+  },
+  {
+    title :"Email Sender Application",
+    description:
+      "An email sender application using Java and JavaMail API.",
+    image: "https://via.placeholder.com/400x300.png?text=Email+Sender+App",
+    link: "https://github.com/Ankit-Kumar-71/Email-Sender-Application",
+  },
+  {
+    title: "Employee Management Application",
+    description:
+      "A full-stack employee management application using Java Full Stack.",
+    image:
+      "https://via.placeholder.com/400x300.png?text=Employee+Management+App",
+    link: "https://github.com/Ankit-Kumar-71/Employee-Management-Application",
+  },
+  {
+    title : "Hotel booking Application",
+    description:
+      "A hotel booking application using Java Full Stack.",
+    image: "https://via.placeholder.com/400x300.png?text=Hotel+Booking+App",
+    link: "https://github.com/Ankit-Kumar-71/Hotel-booking-Application",    
+  },
+  {
+    title : "Appointment Booking Application",
+    description:
+      "An appointment booking application using Java Full Stack.",
+    image: "https://via.placeholder.com/400x300.png?text=Appointment+Booking+App",
+    link: "https://github.com/Ankit-Kumar-71/Appointment-Booking-Appication",
+  },
+  {
+    title: "Chat Application",
+    description:
+      "A real-time chat application using Node.js, Express, and Socket.io.",
+    image: "https://via.placeholder.com/400x300.png?text=Chat+Application",
+    link: "https://github.com/Ankit-Kumar-71/Chat-Application",
+  },
+  {
+    title : "Restaurant Application",
+    description:
+      "A restaurant management application using Java Full Stack.",
+    image: "https://via.placeholder.com/400x300.png?text=Restaurant+App",
+    link: "https://github.com/Ankit-Kumar-71/Restaurant-Application",
+  },
 ];
 
 const Portfolio = () => {
