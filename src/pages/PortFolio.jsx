@@ -43,13 +43,6 @@ const projects = [
     link: "https://github.com/Ankit-Kumar-71/Hotel-booking-Application",    
   },
   {
-    title : "Appointment Booking Application",
-    description:
-      "An appointment booking application using React and Springboot.",
-    image: AppointmentBookingImage,
-    link: "https://github.com/Ankit-Kumar-71/Appointment-Booking-Appication",
-  },
-  {
     title: "Chat Application",
     description:
       "A real-time chat application using React and Springboot.",
