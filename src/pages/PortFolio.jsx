@@ -3,7 +3,6 @@ import portfolioImage from "../../public/PortfolioImage.png";
 import EmailAppImage from "../../public/EmailAppImage.png";
 import EmployeeManagementImage from "../../public/EmployeeManagementImage.png";
 import HotelBookingImage from "../../public/HotelBookingImage.png";
-import AppointmentBookingImage from "../../public/AppointmentBookingImage.png";
 import ChatAppImage from "../../public/ChatAppImage.png";
 import RestaurantAppImage from "../../public/RestaurantAppImage.png";
 
