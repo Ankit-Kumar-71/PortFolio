@@ -59,13 +59,13 @@ const educationData = [
     year: "2020 - 2021",
     title: "12th Standard",
     org: "Delhi, India",
-    desc: "Completed 12th grade from CBSE Board in Science stream, with a strong foundation in communication, creativity, and analytical thinking.",
+    desc: "Completed 12th grade from CBSE Board in Science stream, with a strong foundation in communication, creativity and analytical thinking.",
   },
   {
     year: "2021 - 2024",
     title: "Bachelor of Computer Applications",
     org: "Haryana, India",
-    desc: "Completed BCA (Bachelor of Computer Applications) from Faridabad, developing skills in web development, programming, and software applications.",
+    desc: "Completed BCA (Bachelor of Computer Applications) from Faridabad, developing skills in web development, programming and software applications.",
   },
   {
     year: "2024",
@@ -81,7 +81,7 @@ const experienceData = [
     year: "2025 - Present",
     title: "Web Developer",
     org: "ClickCatchers Pvt. Ltd",
-    desc: "Currently working as a Website Developer, responsible for designing and developing responsive, dynamic websites using WordPress, Elementor, HTML, CSS, and JavaScript, PHP. Focused on building engaging user interfaces and seamless user experiences while implementing modern web development practices.",
+    desc: "Currently working as a Web Developer, responsible for designing and developing responsive, dynamic websites using WordPress, Elementor, HTML, CSS, and JavaScript, PHP. Focused on building engaging user interfaces and seamless user experiences while implementing modern web development practices.",
   },
   // {
   //   year: "2024 - 2024",
@@ -217,16 +217,16 @@ const Home = () => {
               className="mt-6 text-[#94A3B8] max-w-xl"
             >
               Professional Full Stack Web Developer with experience in designing,
-              developing, and maintaining scalable web applications using modern
+              developing and maintaining scalable web applications using modern
               front-end and back-end technologies. Skilled in building
               responsive user interfaces, developing RESTful APIs, managing
-              databases, and implementing secure authentication and
+              databases and implementing secure authentication and
               authorization systems. Proficient in Java, Spring Boot, PHP,
-              Laravel, JavaScript, React.js, SQL, Git, and WordPress.
+              Laravel, JavaScript, React.js, SQL, Git and WordPress.
               Experienced in delivering high-quality, user-focused solutions
-              that improve performance, scalability, and user experience. Adept
+              that improve performance, scalability and user experience. Adept
               at collaborating with cross-functional teams, following industry
-              best practices, and managing projects from development through
+              best practices and managing projects from development through
               deployment to meet business objectives effectively.
             </motion.p>
           </motion.div>

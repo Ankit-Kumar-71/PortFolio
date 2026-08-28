@@ -160,7 +160,7 @@ const ContactForm = () => {
             />
 
             <label
-              className="absolute left-1 top-3 text-[#94A3B8] text-sm transition-all
+              className="absolute left-1 -top-3 text-[#94A3B8] text-sm transition-all
               peer-placeholder-shown:top-3 peer-placeholder-shown:text-[#94A3B8] peer-placeholder-shown:text-sm
               peer-focus:-top-3 peer-focus:text-[#38BDF8] peer-focus:text-base"
             >
@@ -182,7 +182,7 @@ const ContactForm = () => {
             />
 
             <label
-              className="absolute left-1 top-3 text-[#94A3B8] text-sm transition-all
+              className="absolute left-1 -top-3 text-[#94A3B8] text-sm transition-all
               peer-placeholder-shown:top-3 peer-placeholder-shown:text-[#94A3B8] peer-placeholder-shown:text-sm
               peer-focus:-top-3 peer-focus:text-[#38BDF8] peer-focus:text-base"
             >
@@ -204,7 +204,7 @@ const ContactForm = () => {
             />
 
             <label
-              className="absolute left-1 top-3 text-[#94A3B8] text-sm transition-all
+              className="absolute left-1 -top-3 text-[#94A3B8] text-sm transition-all
               peer-placeholder-shown:top-3 peer-placeholder-shown:text-[#94A3B8] peer-placeholder-shown:text-sm
               peer-focus:-top-3 peer-focus:text-[#38BDF8] peer-focus:text-base"
             >

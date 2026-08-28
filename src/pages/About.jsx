@@ -76,7 +76,14 @@ const professionalSkills = [
   "Animation & Interaction",
 ];
 
-const tools = ["VS Code", "GitHub", "Figma", "Postman", "WordPress", "IntelliJ IDEA"];
+const tools = [
+  "VS Code",
+  "GitHub",
+  "Figma",
+  "Postman",
+  "WordPress",
+  "IntelliJ IDEA",
+];
 
 const stats = [
   { label: "Days I Code", value: "300+" },
@@ -129,8 +136,7 @@ export default function About() {
             <motion.p
               variants={item}
               className="text-[#94A3B8] mt-4 text-base sm:text-lg"
-            >
-            </motion.p>
+            ></motion.p>
           </motion.div>
 
           {/* INTRO + SKILLS */}
@@ -148,10 +154,10 @@ export default function About() {
               </h3>
 
               <p className="text-[#94A3B8] mb-5">
-                I am a passionate Full Stack Web Developer dedicated to crafting modern,
-                animated, and responsive web experiences. I combine clean UI
-                design, fast performance, and accessibility to help brands grow
-                digitally and engage users effectively.
+                I am a passionate Full Stack Web Developer dedicated to crafting
+                modern, animated and responsive web experiences. I combine
+                clean UI design, fast performance and accessibility to help
+                brands grow digitally and engage users effectively.
               </p>
 
               <p className="text-[#94A3B8] mb-8">
