@@ -31,7 +31,7 @@ const Preloader = () => {
           animate-[fadeIn_1.5s_ease-in-out]"
           style={{ fontFamily: "'Brush Script MT', cursive" }}
         >
-          Ankit kumar
+          Ankit Kumar
         </h1>
 
         {/* Profession */}

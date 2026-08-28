@@ -193,7 +193,7 @@ const Home = () => {
               variants={heroItem}
               className="text-5xl lg:text-6xl font-bold"
             >
-              Hi, I’m <span className="text-sky-400">Ankit kumar</span>
+              Hi, I’m <span className="text-sky-400">Ankit Kumar</span>
             </motion.h1>
 
             <motion.h2
