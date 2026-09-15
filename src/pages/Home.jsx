@@ -78,23 +78,17 @@ const educationData = [
 
 const experienceData = [
   {
-    year: "2025 - Present",
-    title: "Web Developer",
-    org: "ClickCatchers Pvt. Ltd",
-    desc: "Currently working as a Web Developer, responsible for designing and developing responsive, dynamic websites using WordPress, Elementor, HTML, CSS, and JavaScript, PHP. Focused on building engaging user interfaces and seamless user experiences while implementing modern web development practices.",
-  },
-  // {
-  //   year: "2024 - 2024",
-  //   title: "Website Developer Intern & Basic SEO",
-  //   org: "QorvaTect",
-  //   desc: "Worked as a Web Developer Intern, creating and maintaining websites using WordPress with Elementor, along with HTML, CSS, and JavaScript. Handled basic SEO tasks to improve website performance and search engine visibility.",
-  // },
-  {
-    year: "2022 - Present",
+    year: "2024 - Present",
     title: "Web Developer",
     org: "Freelancing Projects",
     desc: "Executed multiple freelance web development projects, delivering custom websites for clients using WordPress, Elementor, HTML, CSS, JavaScript, and React.js. Specialized in responsive design, UI/UX improvements, and client-focused solutions that enhance online presence.",
   },
+  {
+    year: "2025 - Present",
+    title: "Web Developer",
+    org: "ClickCatchers Pvt. Ltd",
+    desc: "Currently working as a Web Developer, responsible for designing and developing responsive, dynamic websites using WordPress, Elementor, HTML, CSS, and JavaScript, PHP. Focused on building engaging user interfaces and seamless user experiences while implementing modern web development practices.",
+  } 
 ];
 
 /* ================= TIMELINE ================= */
@@ -202,7 +196,7 @@ const Home = () => {
             >
               <Typewriter
                 words={[
-                  "Full Stack Web Developer",
+                  "Web Developer",
                   "Frontend Developer",
                   "Backend Developer",
                   "WordPress Developer",
@@ -216,7 +210,7 @@ const Home = () => {
               variants={heroItem}
               className="mt-6 text-[#94A3B8] max-w-xl"
             >
-              Professional Full Stack Web Developer with experience in designing,
+              Professional Web Developer with experience in designing,
               developing and maintaining scalable web applications using modern
               front-end and back-end technologies. Skilled in building
               responsive user interfaces, developing RESTful APIs, managing

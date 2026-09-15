@@ -1,5 +1,5 @@
 import React from "react";
-import { Github, Linkedin, Mail, ArrowUp } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -20,11 +20,11 @@ const Footer = () => {
               bg-clip-text text-transparent"
               style={{ fontFamily: "'Brush Script MT', cursive" }}
             >
-              Ankit kumar
+              Ankit Kumar
             </h2>
 
             <p className="text-[#94A3B8] text-sm">
-              Full Stack Web Developer passionate about creating modern,
+              Web Developer passionate about creating modern,
               responsive and animated web Application experiences.
             </p>
           </div>

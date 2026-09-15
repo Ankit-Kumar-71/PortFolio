@@ -36,7 +36,7 @@ const Preloader = () => {
 
         {/* Profession */}
         <p className="text-lg md:text-2xl text-[#38BDF8] tracking-[6px] animate-[fadeUp_2s_ease-in-out]">
-          FULL STACK  WEB DEVELOPER
+          WEB DEVELOPER
         </p>
 
         {/* Animated Bars */}

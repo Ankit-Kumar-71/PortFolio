@@ -1,15 +1,12 @@
 import React, { useState } from "react";
 // import { pdfjs } from "react-pdf";
 import { motion, useScroll, useSpring } from "framer-motion";
-// import { Document, Page, pdfjs} from "react-pdf";
-// const resume = "/Sumit-resume.pdf";
-// import worker from "pdfjs-dist/build/pdf.worker.min?url";
+import { Document, Page, pdfjs } from "react-pdf";
+import worker from "pdfjs-dist/build/pdf.worker.min?url";
 
-// pdfjs.GlobalWorkerOptions.workerSrc = worker;
-// import resume from "../assets/Sumit-resume.pdf";
-// set workerSrc for react-pdf
-// pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+pdfjs.GlobalWorkerOptions.workerSrc = worker;
 
+const resume = "/Ankit-Kumar-resume.pdf";
 /* =====================
    SCROLL PROGRESS BAR
 ===================== */
@@ -58,13 +55,13 @@ const item = {
    DATA
 ===================== */
 const skills = [
-  { name: "HTML", value: 60 },
-  { name: "CSS", value: 60 },
-  { name: "JavaScript", value: 80 },
-  { name: "WordPress", value: 70 },
-  { name: "PHP", value: 80 },
-  { name: "Java", value: 80 },
-  { name: "SQL", value: 60 },
+  { name: "HTML", value: 90 },
+  { name: "CSS", value: 88 },
+  { name: "JavaScript", value: 82 },
+  { name: "WordPress", value: 85 },
+  { name: "PHP", value: 78 },
+  { name: "Java", value: 72 },
+  { name: "SQL", value: 75 },
 ];
 
 const professionalSkills = [
@@ -154,10 +151,10 @@ export default function About() {
               </h3>
 
               <p className="text-[#94A3B8] mb-5">
-                I am a passionate Full Stack Web Developer dedicated to crafting
-                modern, animated and responsive web experiences. I combine
-                clean UI design, fast performance and accessibility to help
-                brands grow digitally and engage users effectively.
+                I am a passionate Web Developer dedicated to crafting
+                modern, animated and responsive web experiences. I combine clean
+                UI design, fast performance and accessibility to help brands
+                grow digitally and engage users effectively.
               </p>
 
               <p className="text-[#94A3B8] mb-8">
@@ -170,10 +167,10 @@ export default function About() {
 
               <motion.button
                 type="button"
-                onClick={() => window.open("/Sumit-resume.pdf", "_blank")}
+                onClick={() => window.open("/Ankit-Kumar-resume.pdf", "_blank")}
                 // onClick={() => setShowPDF(true)}
                 whileHover={{ scale: 1.05 }}
-                //  onClick={() => window.open("/Sumit-resume.pdf", "_blank")}
+                //  onClick={() => window.open("/Ankit-Kumar-resume.pdf", "_blank")}
                 whileTap={{ scale: 0.95 }}
                 transition={{ type: "spring", stiffness: 300 }}
                 className="
