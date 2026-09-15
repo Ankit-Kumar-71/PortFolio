@@ -84,7 +84,7 @@ const experienceData = [
     desc: "Executed multiple freelance web development projects, delivering custom websites for clients using WordPress, Elementor, HTML, CSS, JavaScript, and React.js. Specialized in responsive design, UI/UX improvements, and client-focused solutions that enhance online presence.",
   },
   {
-    year: "2025 - Present",
+    year: "2026 - Present",
     title: "Web Developer",
     org: "ClickCatchers Pvt. Ltd",
     desc: "Currently working as a Web Developer, responsible for designing and developing responsive, dynamic websites using WordPress, Elementor, HTML, CSS, and JavaScript, PHP. Focused on building engaging user interfaces and seamless user experiences while implementing modern web development practices.",
@@ -196,10 +196,10 @@ const Home = () => {
             >
               <Typewriter
                 words={[
-                  "Web Developer",
-                  "Frontend Developer",
-                  "Backend Developer",
-                  "WordPress Developer",
+                  "WEB DEVELOPER",
+                  "FRONTEND DEVELOPER",
+                  "BACKEND DEVELOPER",
+                  "WORDPRESS DEVELOPER",
                 ]}
                 loop
                 cursor

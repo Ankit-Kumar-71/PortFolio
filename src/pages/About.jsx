@@ -6,7 +6,7 @@ import worker from "pdfjs-dist/build/pdf.worker.min?url";
 
 pdfjs.GlobalWorkerOptions.workerSrc = worker;
 
-const resume = "/Ankit-Kumar-resume.pdf";
+const resume = "/Ankit_Kumar_Web_Developer_Resume.pdf";
 /* =====================
    SCROLL PROGRESS BAR
 ===================== */
