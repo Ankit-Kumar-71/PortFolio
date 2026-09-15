@@ -1,12 +1,8 @@
-import React, { useState } from "react";
-// import { pdfjs } from "react-pdf";
+import React from "react";
 import { motion, useScroll, useSpring } from "framer-motion";
-import { Document, Page, pdfjs } from "react-pdf";
-import worker from "pdfjs-dist/build/pdf.worker.min?url";
-
-pdfjs.GlobalWorkerOptions.workerSrc = worker;
 
 const resume = "/Ankit_Kumar_Web_Developer_Resume.pdf";
+
 /* =====================
    SCROLL PROGRESS BAR
 ===================== */
@@ -41,19 +37,28 @@ const container = {
 };
 
 const item = {
-  hidden: { opacity: 0, y: 60, scale: 0.95, filter: "blur(8px)" },
+  hidden: {
+    opacity: 0,
+    y: 60,
+    scale: 0.95,
+    filter: "blur(8px)",
+  },
   show: {
     opacity: 1,
     y: 0,
     scale: 1,
     filter: "blur(0px)",
-    transition: { duration: 0.9, ease: [0.22, 1, 0.36, 1] },
+    transition: {
+      duration: 0.9,
+      ease: [0.22, 1, 0.36, 1],
+    },
   },
 };
 
 /* =====================
    DATA
 ===================== */
+
 const skills = [
   { name: "HTML", value: 90 },
   { name: "CSS", value: 88 },
@@ -91,12 +96,10 @@ const stats = [
 /* =====================
    COMPONENT
 ===================== */
-export default function About() {
-  const [showPDF, setShowPDF] = useState(false);
-  const [numPages, setNumPages] = useState(null);
 
-  const onDocumentLoadSuccess = ({ numPages }) => {
-    setNumPages(numPages);
+export default function About() {
+  const handleResume = () => {
+    window.open(resume, "_blank", "noopener,noreferrer");
   };
 
   return (
@@ -107,10 +110,13 @@ export default function About() {
       <section className="relative min-h-screen bg-[#0F172A] text-[#E5E7EB] overflow-hidden">
         {/* BACKGROUND GLOW */}
         <div className="absolute -top-40 -left-40 w-[400px] h-[400px] bg-sky-400/20 blur-[120px]" />
+
         <div className="absolute top-1/3 -right-40 w-[400px] h-[400px] bg-green-500/20 blur-[120px]" />
 
         <div className="relative max-w-7xl mx-auto px-6 py-28">
-          {/* HEADER */}
+          {/* =====================
+              HEADER
+          ===================== */}
           <motion.div
             variants={container}
             initial="hidden"
@@ -128,15 +134,22 @@ export default function About() {
             <motion.h2
               variants={item}
               className="text-4xl sm:text-5xl font-bold mt-4"
-            ></motion.h2>
+            >
+              Web Developer
+            </motion.h2>
 
             <motion.p
               variants={item}
-              className="text-[#94A3B8] mt-4 text-base sm:text-lg"
-            ></motion.p>
+              className="text-[#94A3B8] mt-4 text-base sm:text-lg max-w-2xl mx-auto"
+            >
+              I build modern, responsive and user-friendly web experiences using
+              clean code and modern web technologies.
+            </motion.p>
           </motion.div>
 
-          {/* INTRO + SKILLS */}
+          {/* =====================
+              INTRO + SKILLS
+          ===================== */}
           <motion.div
             variants={container}
             initial="hidden"
@@ -147,42 +160,47 @@ export default function About() {
             {/* LEFT */}
             <motion.div variants={item}>
               <h3 className="text-2xl sm:text-3xl font-semibold mb-6">
-                I Build Visually Stunning & High-Performance Websites
+                I Build Modern & High-Performance Websites
               </h3>
 
               <p className="text-[#94A3B8] mb-5">
-                I am a passionate Web Developer dedicated to crafting
-                modern, animated and responsive web experiences. I combine clean
-                UI design, fast performance and accessibility to help brands
-                grow digitally and engage users effectively.
+                I am a Web Developer focused on building modern, responsive and
+                user-friendly web applications. I enjoy turning ideas into
+                functional digital experiences using clean code and thoughtful
+                UI design.
               </p>
 
               <p className="text-[#94A3B8] mb-8">
-                With a focus on user-centric design and cutting-edge
-                technologies, I turn ideas into functional websites that are
-                both beautiful and high-performing.
+                I work across both frontend and backend development, with a
+                strong focus on responsive design, API integration, performance
+                and creating smooth user experiences.
               </p>
 
-              {/* import { motion } from "framer-motion"; */}
-
+              {/* RESUME BUTTON */}
               <motion.button
                 type="button"
-                onClick={() => window.open("/Ankit-Kumar-resume.pdf", "_blank")}
-                // onClick={() => setShowPDF(true)}
+                onClick={handleResume}
                 whileHover={{ scale: 1.05 }}
-                //  onClick={() => window.open("/Ankit-Kumar-resume.pdf", "_blank")}
                 whileTap={{ scale: 0.95 }}
                 transition={{ type: "spring", stiffness: 300 }}
                 className="
-    cursor-pointer flex items-center justify-between
-    px-4 py-3 w-[180px] rounded-full
-    bg-gradient-to-r from-sky-400 to-green-500
-    text-[#0F172A] font-mono font-semibold
-    tracking-wider shadow-xl
-    hover:ring-2 hover:ring-sky-300
-  "
+                  cursor-pointer
+                  flex items-center justify-between
+                  px-4 py-3
+                  w-[190px]
+                  rounded-full
+                  bg-gradient-to-r from-sky-400 to-green-500
+                  text-[#0F172A]
+                  font-mono
+                  font-semibold
+                  tracking-wider
+                  shadow-xl
+                  hover:ring-2
+                  hover:ring-sky-300
+                  transition
+                "
               >
-                Hire Me
+                View Resume
                 <motion.svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -191,7 +209,10 @@ export default function About() {
                   stroke="currentColor"
                   className="w-5 h-5 ml-2"
                   animate={{ y: [0, 6, 0] }}
-                  transition={{ repeat: Infinity, duration: 1 }}
+                  transition={{
+                    repeat: Infinity,
+                    duration: 1,
+                  }}
                 >
                   <path
                     strokeLinecap="round"
@@ -208,8 +229,8 @@ export default function About() {
                 Core Skills
               </h4>
 
-              {skills.map((skill, i) => (
-                <div key={i}>
+              {skills.map((skill) => (
+                <div key={skill.name}>
                   <div className="flex justify-between text-sm mb-2">
                     <span>{skill.name}</span>
                     <span>{skill.value}%</span>
@@ -220,7 +241,10 @@ export default function About() {
                       initial={{ width: 0 }}
                       whileInView={{ width: `${skill.value}%` }}
                       viewport={{ once: true }}
-                      transition={{ duration: 1.6, ease: [0.22, 1, 0.36, 1] }}
+                      transition={{
+                        duration: 1.6,
+                        ease: [0.22, 1, 0.36, 1],
+                      }}
                       className="h-full bg-gradient-to-r from-sky-400 to-green-500"
                     />
                   </div>
@@ -229,7 +253,9 @@ export default function About() {
             </motion.div>
           </motion.div>
 
-          {/* PROFESSIONAL SKILLS */}
+          {/* =====================
+              PROFESSIONAL SKILLS
+          ===================== */}
           <motion.div
             variants={container}
             initial="hidden"
@@ -242,13 +268,27 @@ export default function About() {
             </h3>
 
             <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
-              {professionalSkills.map((skill, i) => (
+              {professionalSkills.map((skill) => (
                 <motion.div
-                  key={i}
+                  key={skill}
                   variants={item}
-                  whileHover={{ y: -10, scale: 1.05 }}
-                  transition={{ type: "spring", stiffness: 180 }}
-                  className="p-6 rounded-2xl bg-white/5 backdrop-blur border border-white/10 text-center"
+                  whileHover={{
+                    y: -10,
+                    scale: 1.05,
+                  }}
+                  transition={{
+                    type: "spring",
+                    stiffness: 180,
+                  }}
+                  className="
+                    p-6
+                    rounded-2xl
+                    bg-white/5
+                    backdrop-blur
+                    border
+                    border-white/10
+                    text-center
+                  "
                 >
                   {skill}
                 </motion.div>
@@ -256,7 +296,9 @@ export default function About() {
             </div>
           </motion.div>
 
-          {/* TOOLS */}
+          {/* =====================
+              TOOLS
+          ===================== */}
           <motion.div
             variants={container}
             initial="hidden"
@@ -269,9 +311,9 @@ export default function About() {
             </h3>
 
             <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-6 gap-8 text-center">
-              {tools.map((tool, i) => (
+              {tools.map((tool) => (
                 <motion.div
-                  key={i}
+                  key={tool}
                   variants={item}
                   animate={{ y: [0, -8, 0] }}
                   transition={{
@@ -280,7 +322,11 @@ export default function About() {
                     ease: "easeInOut",
                   }}
                   whileHover={{ scale: 1.15 }}
-                  className="p-4 rounded-xl bg-slate-800/60"
+                  className="
+                    p-4
+                    rounded-xl
+                    bg-slate-800/60
+                  "
                 >
                   {tool}
                 </motion.div>
@@ -288,7 +334,9 @@ export default function About() {
             </div>
           </motion.div>
 
-          {/* STATS */}
+          {/* =====================
+              STATS
+          ===================== */}
           <motion.div
             variants={container}
             initial="hidden"
@@ -296,45 +344,45 @@ export default function About() {
             viewport={{ once: true }}
             className="grid sm:grid-cols-3 gap-8 text-center"
           >
-            {stats.map((stat, i) => (
+            {stats.map((stat) => (
               <motion.div
-                key={i}
+                key={stat.label}
                 variants={item}
-                className="p-8 rounded-2xl bg-gradient-to-br from-sky-400/10"
+                className="
+                  p-8
+                  rounded-2xl
+                  bg-gradient-to-br
+                  from-sky-400/10
+                "
               >
                 <motion.h4
-                  initial={{ opacity: 0, scale: 0.7 }}
-                  whileInView={{ opacity: 1, scale: 1 }}
-                  transition={{ type: "spring", stiffness: 120 }}
-                  className="text-3xl sm:text-4xl font-bold text-sky-400"
+                  initial={{
+                    opacity: 0,
+                    scale: 0.7,
+                  }}
+                  whileInView={{
+                    opacity: 1,
+                    scale: 1,
+                  }}
+                  transition={{
+                    type: "spring",
+                    stiffness: 120,
+                  }}
+                  className="
+                    text-3xl
+                    sm:text-4xl
+                    font-bold
+                    text-sky-400
+                  "
                 >
                   {stat.value}
                 </motion.h4>
+
                 <p className="text-[#94A3B8] mt-2">{stat.label}</p>
               </motion.div>
             ))}
           </motion.div>
         </div>
-
-        {/* PDF Modal */}
-        {showPDF && (
-          <div className="fixed inset-0 bg-black/70 flex justify-center items-center z-50 p-4">
-            <div className="bg-[#0F172A] p-4 rounded-xl max-w-3xl w-full relative">
-              <button
-                onClick={() => setShowPDF(false)}
-                className="absolute top-2 right-2 text-white text-xl font-bold"
-              >
-                ✕
-              </button>
-
-              <Document file={resume} onLoadSuccess={onDocumentLoadSuccess}>
-                {Array.from(new Array(numPages), (el, index) => (
-                  <Page key={index} pageNumber={index + 1} />
-                ))}
-              </Document>
-            </div>
-          </div>
-        )}
       </section>
     </>
   );
