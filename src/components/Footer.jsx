@@ -5,8 +5,6 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="relative bg-[#0F172A] text-[#E5E7EB] pt-16 pb-10 overflow-hidden">
-      {/* Top Gradient Line */}
-      {/* <div className="absolute top-0 left-0 w-full h-[2px] bg-gradient-to-r from-[#38BDF8] to-[#22C55E]" /> */}
 
       {/* Background Glow */}
       <div className="absolute inset-0 opacity-10 bg-gradient-to-tr from-[#38BDF8] to-[#22C55E] blur-3xl"></div>

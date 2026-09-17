@@ -15,15 +15,14 @@ const Navbar = () => {
   return (
     <nav className="fixed w-full z-50 bg-[#0F172A]/80 backdrop-blur-md shadow-lg border-b border-[#1E293B]">
       <div className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
-        
         {/* Logo */}
         <h2
-  className="text-4xl bg-[#38BDF8]
+          className="text-4xl bg-[#38BDF8]
   bg-clip-text text-transparent cursor-pointer transition duration-500 hover:scale-110"
-  style={{ fontFamily: "'Brush Script MT', cursive" }}
->
+          style={{ fontFamily: "'Brush Script MT', cursive" }}
+        >
           Ankit kumar
-</h2>
+        </h2>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex gap-10 text-[#E5E7EB] font-medium">
