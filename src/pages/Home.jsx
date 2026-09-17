@@ -88,7 +88,7 @@ const experienceData = [
     title: "Web Developer",
     org: "ClickCatchers Pvt. Ltd",
     desc: "Currently working as a Web Developer, responsible for designing and developing responsive, dynamic websites using WordPress, Elementor, HTML, CSS, and JavaScript, PHP. Focused on building engaging user interfaces and seamless user experiences while implementing modern web development practices.",
-  } 
+  },
 ];
 
 /* ================= TIMELINE ================= */
@@ -185,9 +185,12 @@ const Home = () => {
           >
             <motion.h1
               variants={heroItem}
-              className="text-5xl lg:text-6xl font-bold"
+              className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold leading-tight"
             >
-              Hi, I’m <span className="text-sky-400">Ankit Kumar</span>
+              Hi, I’m{" "}
+              <span className="text-sky-400 whitespace-nowrap">
+                Ankit Kumar
+              </span>
             </motion.h1>
 
             <motion.h2
@@ -214,13 +217,13 @@ const Home = () => {
               developing and maintaining scalable web applications using modern
               front-end and back-end technologies. Skilled in building
               responsive user interfaces, developing RESTful APIs, managing
-              databases and implementing secure authentication and
-              authorization systems. Proficient in Java, Spring Boot, PHP,
-              Laravel, JavaScript, React.js, SQL, Git and WordPress.
-              Experienced in delivering high-quality, user-focused solutions
-              that improve performance, scalability and user experience. Adept
-              at collaborating with cross-functional teams, following industry
-              best practices and managing projects from development through
+              databases and implementing secure authentication and authorization
+              systems. Proficient in Java, Spring Boot, PHP, Laravel,
+              JavaScript, React.js, SQL, Git and WordPress. Experienced in
+              delivering high-quality, user-focused solutions that improve
+              performance, scalability and user experience. Adept at
+              collaborating with cross-functional teams, following industry best
+              practices and managing projects from development through
               deployment to meet business objectives effectively.
             </motion.p>
           </motion.div>
