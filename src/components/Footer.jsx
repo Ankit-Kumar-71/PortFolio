@@ -22,7 +22,7 @@ const Footer = () => {
             </h2>
 
             <p className="text-[#94A3B8] text-sm">
-              Web Developer passionate about creating modern,
+              Full Stack Web Developer passionate about creating modern,
               responsive and animated web Application experiences.
             </p>
           </div>

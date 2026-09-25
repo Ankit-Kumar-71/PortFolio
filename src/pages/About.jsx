@@ -218,7 +218,7 @@ export default function About() {
               mt-4
               leading-tight"
             >
-              Web Developer
+              Full Stack Web Developer
             </motion.h2>
 
             {/* Description */}
@@ -284,7 +284,7 @@ export default function About() {
                 leading-relaxed
                 mb-5"
               >
-                I am a Web Developer focused on building modern,
+                I am a Full Stack Web Developer focused on building modern,
                 responsive and user-friendly web applications. I enjoy
                 turning ideas into functional digital experiences using
                 clean code and thoughtful UI design.

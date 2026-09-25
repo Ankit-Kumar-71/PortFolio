@@ -301,10 +301,10 @@ const Home = () => {
             >
               <Typewriter
                 words={[
-                  "WEB DEVELOPER",
-                  "FRONTEND DEVELOPER",
-                  "BACKEND DEVELOPER",
-                  "WORDPRESS DEVELOPER",
+                  "Full Stack Web Developer",
+                  "Frontend Developer",
+                  "Backend Developer",
+                  "WordPress Developer",
                 ]}
                 loop
                 cursor
@@ -324,7 +324,7 @@ const Home = () => {
               mx-auto md:mx-0
               leading-relaxed"
             >
-              Professional Web Developer with experience in designing,
+              Professional Full Stack Web Developer with experience in designing,
               developing and maintaining scalable web applications using
               modern front-end and back-end technologies. Skilled in
               building responsive user interfaces, developing RESTful APIs,
