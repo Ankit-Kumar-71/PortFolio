@@ -1,7 +1,7 @@
 import React from "react";
 import { motion, useScroll, useSpring } from "framer-motion";
 
-const resume = "/Ankit_Kumar_Web_Developer_Resume.pdf";
+const resume = "/Ankit_Kumar_FullStackWebDeveloper_Resume.pdf";
 
 /* =====================
    SCROLL PROGRESS BAR
